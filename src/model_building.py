@@ -3,7 +3,6 @@ from sklearn.ensemble import RandomForestClassifier
 import pickle
 import os
 
-
 def model_build(X_train,X_test,y_train,y_test):
     model=RandomForestClassifier(random_state=1)
 
